@@ -1,0 +1,18 @@
+REKAP DAN ANALISIS NILAI MATEMATIKA
+==================================================
+
+DAFTAR NILAI SISWA
+A001 | Ayu | 80.00 | Tuntas
+A002 | Bima | 70.00 | Belum tuntas
+A003 | Citra | 90.00 | Tuntas
+A004 | Deni | 75.00 | Tuntas
+A005 | Eka | 85.00 | Tuntas
+
+RINGKASAN
+Jumlah data valid: 5
+Rata-rata: 80.00
+Nilai minimum: 70.00
+Nilai maksimum: 90.00
+Batas ketuntasan: 75.00
+Jumlah tuntas: 4
+Jumlah belum tuntas: 1
