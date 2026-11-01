@@ -124,14 +124,17 @@ gambaran nilai kelas serta siswa yang belum mencapai ketuntasan.
 
 ### Contoh Input
 
+```text
 A001,Ayu,80
 A002,Bima,70
 A003,Citra,90
 A004,Deni,75
 A005,Eka,85
+```
 
 ### Hasil yang Diharapkan
 
+```text
 Jumlah data valid: 5
 Rata-rata: 80.00
 Nilai minimum: 70.00
@@ -139,11 +142,15 @@ Nilai maksimum: 90.00
 Batas ketuntasan: 75.00
 Jumlah tuntas: 4
 Jumlah belum tuntas: 1
+```
 
 Laporan juga memuat ID, nama, nilai, dan status setiap siswa.
 
 Perhitungan rata-rata:
-(80 + 70 + 90 + 75 + 85) / 5 = 400 / 5 = 80.
+
+```text
+(80 + 70 + 90 + 75 + 85) / 5 = 400 / 5 = 80
+```
 
 Hasil tersebut merupakan target rancangan dan belum menjadi
 klaim hasil pengujian aktual pada Pertemuan 14.
@@ -152,6 +159,7 @@ klaim hasil pengujian aktual pada Pertemuan 14.
 
 ### Pseudocode
 
+```text
 MULAI
     Tetapkan batas ketuntasan = 75
     Tetapkan lokasi file input dan file laporan
@@ -218,6 +226,7 @@ MULAI
     SELAIN ITU
         Tampilkan lokasi laporan yang berhasil disimpan
 SELESAI
+```
 
 ### Penanganan Kondisi Khusus
 
@@ -274,10 +283,12 @@ analisis terbaru. File output berbeda dari file input.
 
 Contoh data valid:
 
+```python
 [
     {"id": "A001", "nama": "Ayu", "nilai": 80.0},
     {"id": "A002", "nama": "Bima", "nilai": 70.0}
 ]
+```
 
 List digunakan untuk menyimpan kumpulan siswa yang akan diproses
 secara berurutan. Dictionary digunakan agar atribut setiap siswa
@@ -287,7 +298,9 @@ dapat diakses melalui key yang jelas.
 
 Contoh:
 
+```python
 [80.0, 70.0, 90.0, 75.0, 85.0]
+```
 
 List ini digunakan untuk perhitungan sum(), len(), min(), dan max().
 
@@ -295,6 +308,7 @@ List ini digunakan untuk perhitungan sum(), len(), min(), dan max().
 
 Contoh rancangan:
 
+```python
 {
     "jumlah": 5,
     "rata_rata": 80.0,
@@ -303,6 +317,7 @@ Contoh rancangan:
     "tuntas": 4,
     "belum_tuntas": 1
 }
+```
 
 Dictionary memudahkan pengambilan hasil berdasarkan nama informasi.
 
@@ -370,7 +385,7 @@ mengikuti informasi kelas yang diterima.
 
 ## 13. Repositori GitHub
 
-Nama repositori yang direncanakan:
+Nama repositori:
 
 proyek-analisis-nilai-2225250012
 
@@ -378,14 +393,14 @@ Akun GitHub:
 
 citra137
 
-URL yang direncanakan:
+URL repositori:
 
 https://github.com/citra137/proyek-analisis-nilai-2225250012
 
-Status saat proposal disusun: repositori belum dibuat dan URL
-belum diverifikasi. Bagian ini diperbarui setelah repositori aktif.
+Status: repositori telah dibuat dan rancangan Pertemuan 14
+telah diunggah ke branch main.
 
-Riwayat pengerjaan akan dicatat secara bertahap melalui commit
+Riwayat pengerjaan dicatat secara bertahap melalui commit
 yang menjelaskan perubahan, misalnya docs, feat, test, dan fix.
 
 ## Referensi dan Bantuan
