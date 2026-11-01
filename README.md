@@ -57,3 +57,69 @@ A002,Bima,70
 A003,Citra,90
 A004,Deni,75
 A005,Eka,85
+
+```
+
+Data bersifat fiktif. Baris kosong dilewati.
+Baris tidak valid dilaporkan dan tidak ikut dihitung.
+
+## Dokumen Perancangan
+
+- [Proposal proyek](proposal.md): kebutuhan, IPO, pseudocode,
+  struktur program, struktur data, tanggung jawab, dan jadwal.
+- [Rencana pengujian](tests/test_case.md): dua belas test case
+  beserta hasil yang diharapkan.
+
+## Struktur Program yang Direncanakan
+
+| Lokasi | Tanggung Jawab |
+|---|---|
+| main.py | Mengatur alur utama program. |
+| src/input_data.py | Membaca dan memvalidasi data. |
+| src/proses.py | Menghitung statistik dan ketuntasan. |
+| src/output.py | Menyusun dan menyimpan laporan. |
+| data/nilai_contoh.txt | Data siswa fiktif. |
+| tests/test_case.md | Rencana dan hasil pengujian. |
+| docs/bug_log.md | Catatan bug, perbaikan, dan retest. |
+| output/hasil_analisis.txt | Laporan hasil analisis. |
+
+File implementasi dilengkapi pada Pertemuan 15.
+Folder kosong belum ditampilkan oleh GitHub.
+
+## Persyaratan dan Rencana Penggunaan
+
+Program direncanakan menggunakan Python 3 dan pustaka standar.
+Pengerjaan menggunakan VS Code, Git, dan GitHub.
+
+Setelah implementasi selesai, program dijalankan dari folder
+utama proyek melalui terminal PowerShell:
+
+```powershell
+py main.py
+```
+
+Pada Pertemuan 14, program belum diimplementasikan sehingga
+perintah tersebut belum menjadi instruksi untuk program yang siap digunakan.
+
+## Rencana Pengujian
+
+Pengujian mencakup data normal, batas nilai 0 dan 100,
+batas ketuntasan 75, input tidak valid, file kosong,
+file tidak ditemukan, data campuran, dan penyimpanan laporan.
+
+Hasil aktual serta status PASS/FAIL baru diisi setelah pengujian
+dilakukan pada Pertemuan 15.
+
+## Tanggung Jawab Individu
+
+Aulia Citra bertanggung jawab atas perancangan, implementasi,
+pengujian, debugging, dokumentasi, dan pengelolaan repositori.
+
+## Referensi dan Bantuan
+
+- Bahan Ajar Pertemuan 14: Perancangan Proyek Program Sederhana,
+  Algoritma dan Pemrograman, FKIP Untirta, 2026/2027 Ganjil.
+- Bahan Ajar Pertemuan 15: Implementasi, Pengujian, dan Dokumentasi
+  Proyek, Algoritma dan Pemrograman, FKIP Untirta, 2026/2027 Ganjil.
+- ChatGPT membantu penyusunan rancangan dan panduan praktik.
+  Penulis bertanggung jawab mempelajari dan memeriksa hasilnya.
